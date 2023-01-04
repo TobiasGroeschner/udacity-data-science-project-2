@@ -80,11 +80,11 @@ These were the messages with the most frequent categories:
 - direct_report: 5081
 - request: 4480
 
-A machine learning pipeline was build, 'message' being the input column and the 36 categories between the target columns.
+A machine learning pipeline was build, 'message' being the input column and the 36 categories being the target columns.
 
 The machine-learning model is saved as a .pkl-file.
 
-In the back-end, this .pkl file is the "brain" that classifies the input sentence in the web.app.
+In the back-end, this .pkl file is the "brain" that classifies the input sentence in the web-app.
 
 
 ### Acknowledgements:
