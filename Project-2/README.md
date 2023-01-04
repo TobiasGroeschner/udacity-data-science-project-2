@@ -20,8 +20,7 @@ Necessary packages:
 - from sklearn.model_selection import GridSearchCV
 
 
-Project Motivation:
-The goal of this project is to create a machine learning pipeline to categorize disaster messages into categories.
+Project Motivation:The goal of this project is to create a machine learning pipeline to categorize disaster messages into categories.
 
 File Descriptions:
 - ETL Pipeline Preparation.ipynb
