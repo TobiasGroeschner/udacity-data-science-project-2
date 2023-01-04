@@ -4,7 +4,7 @@
  * [Neceesary packages](#Necessary-packages)
  * [Project Motivation](#project-motivation)
  * [File Descriptions](#file-descriptions)
- * [How to interact with this project?](#how-to-interact-with-this-project)
+ * [How to interact with this project](#how-to-interact-with-this-project)
  * [Results](#Results)
  * [Summary](#Summary)
  * [Acknowledgements](#Acknowledgements)
