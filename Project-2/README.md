@@ -4,7 +4,7 @@
  * [Neceesary packages](#Necessary-packages)
  * [Project Motivation](#project-motivation)
  * [File Descriptions](#file-descriptions)
- * [How to interact with this project?](#how-to-interact-with-this-project?)
+ * [How to interact with this project?](#how-to-interact-with-this-project)
  * [Results](#Results)
  * [Summary](#Summary)
  * [Acknowledgements](#Acknowledgements)
@@ -58,7 +58,7 @@ The goal of this project is to create a machine learning pipeline to categorize 
 - data/process_data.py: ETL Pipeline Preparation.ipynb in a python file
 - models/train_classifier.py: ML Pipeline Preparation.ipynb in a python file
 
-### How to interact with this project?
+### How to interact with this project
 - clone the project
 - to start the web app, navigate into the app-folder: '<yourFilepath>/Project-2/app/' and type 'python run.py'. 
 - improve the web-app with better visualizations. Feel free to optimize the machine-learning model, use a different one etc. :)
