@@ -1,11 +1,12 @@
 # Disaster Response Project
 
-
 ## Table of Contents
  * [Neceesary packages](#Necessary-packages)
  * [Project Motivation](#project-motivation)
  * [File Descriptions](#file-descriptions)
  * [How to interact with this project?](#how-to-interact-with-this-project?)
+ * [Results](#Results)
+ * [Summary](#Summary)
  * [Acknowledgements](#Acknowledgements)
 
 
@@ -59,7 +60,7 @@ The goal of this project is to create a machine learning pipeline to categorize 
 
 ### How to interact with this project?
 - clone the project
-- to start the web app, navigate into the app-folder: '<yourFilepath>/DataScience/Project-2/app/' and type 'python run.py'. 
+- to start the web app, navigate into the app-folder: '<yourFilepath>/Project-2/app/' and type 'python run.py'. 
 - improve the web-app with better visualizations. Feel free to optimize the machine-learning model, use a different one etc. :)
 
 ### Results: 
@@ -69,7 +70,22 @@ The goal of this project is to create a machine learning pipeline to categorize 
 
 ### Summary: 
 
-- 
+Data had roughtly 26000 messages. These messages were categorized into 36 categories.  
+
+These were the messages with the most frequent categories:
+
+- related: 20316
+- aid_related: 10878
+- weather_related: 7304
+- direct_report: 5081
+- request: 4480
+
+A machine learning pipeline was build, 'message' being the input column and the 36 categories between the target columns.
+
+The machine-learning model is saved as a .pkl-file.
+
+In the back-end, this .pkl file is the "brain" that classifies the input sentence in the web.app.
+
 
 ### Acknowledgements:
 - udacity for giving feedback on the code
