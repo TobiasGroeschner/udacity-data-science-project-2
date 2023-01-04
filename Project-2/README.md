@@ -1,4 +1,16 @@
-Necessary packages:
+# Disaster Response Project
+
+
+## Table of Contents
+ * [Neceesary packages](#Necessary-packages)
+ * [Project Motivation](#project-motivation)
+ * [File Descriptions](#file-descriptions)
+ * [How to interact with this project?](#how-to-interact-with-this-project?)
+ * [Acknowledgements](#Acknowledgements)
+
+
+
+### Necessary packages:
 
 - import pandas as pd
 - import matplotlib.pyplot as plt
@@ -20,9 +32,12 @@ Necessary packages:
 - from sklearn.model_selection import GridSearchCV
 
 
-Project Motivation:The goal of this project is to create a machine learning pipeline to categorize disaster messages into categories.
+### Project Motivation:
 
-File Descriptions:
+The goal of this project is to create a machine learning pipeline to categorize disaster messages into categories.
+
+### File Descriptions:
+
 - ETL Pipeline Preparation.ipynb
     - Loads the *disaster_messages.csv* and *disaster_categories.csv* datasets
     - Merges the two datasets
@@ -42,16 +57,20 @@ File Descriptions:
 - data/process_data.py: ETL Pipeline Preparation.ipynb in a python file
 - models/train_classifier.py: ML Pipeline Preparation.ipynb in a python file
 
-How to interact with this project?
+### How to interact with this project?
 - clone the project
 - to start the web app, navigate into the app-folder: '<yourFilepath>/DataScience/Project-2/app/' and type 'python run.py'. 
 - improve the web-app with better visualizations. Feel free to optimize the machine-learning model, use a different one etc. :)
 
-Results: 
+### Results: 
 
 - an ETL pipeline and a machine learning model build with Pipelines
 - a Flask web-app
 
-Acknowledgements:
+### Summary: 
+
+- 
+
+### Acknowledgements:
 - udacity for giving feedback on the code
 - [stephanieirvine](https://github.com/stephanieirvine/Udacity-Data-Scientist-Nanodegree/blob/main/Project%202/ML%20Pipeline%20Preparation.ipynb) as I took one function from her.
