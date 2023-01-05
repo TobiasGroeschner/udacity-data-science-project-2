@@ -39,7 +39,7 @@ The goal of this project is to create a machine learning pipeline to categorize 
 
 ### File Descriptions:
 
-- ETL Pipeline Preparation.ipynb
+- `ETL Pipeline Preparation.ipynb`
     - Loads the *disaster_messages.csv* and *disaster_categories.csv* datasets
     - Merges the two datasets
     - Cleans the data
