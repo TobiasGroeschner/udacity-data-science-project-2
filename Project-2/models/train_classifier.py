@@ -16,6 +16,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.metrics import classification_report
+from sklearn.model_selection import GridSearchCV
 import pickle
 
 
@@ -33,7 +34,7 @@ def load_data(database_filepath: str):
     """
 
     # disaster_response.db is the name of the file
-    engine = create_engine("sqlite:///" + database_filepath)
+    engine = create_engine("sqlite:///{database_filepath}")
     # DisasterResponse is the table name
     df = pd.read_sql_table("DisasterResponse.db", con=engine)
 
@@ -94,7 +95,13 @@ def build_model():
         ]
     )
 
-    return pipeline
+    parameters = {
+        'clf__estimator__n_estimators' : [10, 50]
+    }
+    
+    cv = GridSearchCV(pipeline, param_grid=parameters, verbose=3)
+
+    return cv
 
 
 def evaluate_model(model, X_test, Y_test) -> None:
@@ -134,15 +141,9 @@ def save_model(model, model_filepath):
 
 def main():
 
-    database_filepath = (
-        "/home/tobias_groeschner/projects/DataScience/Project-2/disaster_response.db"
-    )
-    model_filepath = "/home/tobias_groeschner/projects/DataScience/Project-2/model.pkl"
-    sys.argv.append(database_filepath)
-    sys.argv.append(model_filepath)
-
     if len(sys.argv) == 3:
 
+        database_filepath, model_filepath = sys.argv[1:]
         print("Loading data...\n    DATABASE: {}".format(database_filepath))
         X, Y = load_data(database_filepath)
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
