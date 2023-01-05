@@ -34,7 +34,7 @@ def load_data(database_filepath: str):
     """
 
     # disaster_response.db is the name of the file
-    engine = create_engine("sqlite:///{database_filepath}")
+    engine = create_engine(f"sqlite:///{database_filepath}")
     # DisasterResponse is the table name
     df = pd.read_sql_table("DisasterResponse.db", con=engine)
 

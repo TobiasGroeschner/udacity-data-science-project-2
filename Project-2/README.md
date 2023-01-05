@@ -39,7 +39,7 @@ The goal of this project is to create a machine learning pipeline to categorize 
 
 ### File Descriptions:
 
-- `ETL Pipeline Preparation.ipynb`
+- ETL Pipeline Preparation.ipynb
     - Loads the *disaster_messages.csv* and *disaster_categories.csv* datasets
     - Merges the two datasets
     - Cleans the data
@@ -60,7 +60,10 @@ The goal of this project is to create a machine learning pipeline to categorize 
 
 ### How to interact with this project
 - clone the project
-- to start the web app, navigate into the app-folder: '<yourFilepath>/Project-2/app/' and type 'python run.py'. 
+- To run the ETL pipeline that will store the final data in a database, run `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response.db`
+- To run the ML pipeline, run: `python models/train_classifier.py data/disaster_response.db models/model.pkl`
+- to start the web app, navigate into the app-folder: '<yourFilepath>/Project-2/app/' and type `python run.py`.
+- Go to http://0.0.0.0:3001/
 - improve the web-app with better visualizations. Feel free to optimize the machine-learning model, use a different one etc. :)
 
 ### Results: 
