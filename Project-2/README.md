@@ -84,7 +84,7 @@ A machine learning pipeline was build, 'message' being the input column and the 
 
 The machine-learning model is saved as a .pkl-file.
 
-In the back-end, this .pkl file is the "brain" that classifies the input sentence in the web-app.
+In the web-app, this .pkl file is the "brain" that classifies the input sentence in the backend.
 
 
 ### Acknowledgements:
