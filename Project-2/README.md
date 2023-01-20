@@ -1,4 +1,5 @@
-# Disaster Response Project
+# Udacity Data Scientist Project 2: Disaster Response Project
+
 
 ## Table of Contents
  * [Neceesary packages](#Necessary-packages)
@@ -11,7 +12,7 @@
 
 
 
-### Necessary packages:
+### Necessary packages
 
 - import pandas as pd
 - import matplotlib.pyplot as plt
@@ -33,11 +34,11 @@
 - from sklearn.model_selection import GridSearchCV
 
 
-### Project Motivation:
+### Project Motivation
 
 The goal of this project is to create a machine learning pipeline to categorize disaster messages into categories.
 
-### File Descriptions:
+### File Descriptions
 
 - ETL Pipeline Preparation.ipynb
     - Loads the *disaster_messages.csv* and *disaster_categories.csv* datasets
@@ -59,19 +60,19 @@ The goal of this project is to create a machine learning pipeline to categorize 
 - models/train_classifier.py: ML Pipeline Preparation.ipynb in a python file
 
 ### How to interact with this project
-- clone the project
+- clone the project `git clone https://github.com/TobiasGroeschner/udacity-data-scientist.git`
 - To run the ETL pipeline that will store the final data in a database, run `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response.db`
 - To run the ML pipeline, run: `python models/train_classifier.py data/disaster_response.db models/model.pkl`
 - to start the web app, navigate into the app-folder: '<yourFilepath>/Project-2/app/' and type `python run.py`.
 - Go to http://0.0.0.0:3001/
 - improve the web-app with better visualizations. Feel free to optimize the machine-learning model, use a different one etc. :)
 
-### Results: 
+### Results
 
 - an ETL pipeline and a machine learning model build with Pipelines
 - a Flask web-app
 
-### Summary: 
+### Summary
 
 Data had roughtly 26000 messages. These messages were categorized into 36 categories.  
 
@@ -90,6 +91,6 @@ The machine-learning model is saved as a .pkl-file.
 In the web-app, this .pkl file is the "brain" that classifies the input sentence in the backend.
 
 
-### Acknowledgements:
+### Acknowledgements
 - udacity for giving feedback on the code
 - [stephanieirvine](https://github.com/stephanieirvine/Udacity-Data-Scientist-Nanodegree/blob/main/Project%202/ML%20Pipeline%20Preparation.ipynb) as I took one function from her.
