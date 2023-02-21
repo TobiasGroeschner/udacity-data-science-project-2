@@ -25,6 +25,8 @@ The goal of this project is to build a recommendation system on data from the IB
 ### File Descriptions
 
 - Recommendations_with_IBM.ipynb: Jupyter Notebook the analyis
+- Recommendations_with_IBM.html: Jupyter Notebook as .html
+- project_tests.py: testing document, used to check results in Jupyter Notebook
 - top_5.p: top 5 articles
 - top_10.p: top 10 articles
 - top_20.p: top 20 articles
@@ -34,7 +36,7 @@ The goal of this project is to build a recommendation system on data from the IB
 
 
 ### How to interact with this project
-- clone the project `git clone https://github.com/TobiasGroeschner/udacity-data-scientist.git`
+- clone the project `git clone https://github.com/TobiasGroeschner/udacity-data-scientist.git` and play around with the Notebook.
 
 ### Results
 #### Part I : Exploratory Data Analysis
