@@ -5,6 +5,7 @@
  * [Project Motivation](#project-motivation)
  * [File Descriptions](#file-descriptions)
  * [How to interact with this project](#how-to-interact-with-this-project)
+ * [Results](#results)
  * [Acknowledgements](#Acknowledgements)
 
 
@@ -23,27 +24,19 @@ The goal of this project is to build a recommendation system on data from the IB
 
 ### File Descriptions
 
-Recommendations_with_IBM.ipynb
+- Recommendations_with_IBM.ipynb: Jupyter Notebook the analyis
+- top_5.p: top 5 articles
+- top_10.p: top 10 articles
+- top_20.p: top 20 articles
+- user_item_matrix.p: user item matrix
+- data/articles_community.csv: raw data
+- data/user-item-interaction.csv: raw data
 
-- I. Exploratory Data Analysis
-- II. Rank Based Recommendations
-- III. User-User Based Collaborative Filtering
-- IV. Content Based Recommendations (EXTRA - NOT DONE)
-- V. Matrix Factorization
-
-- top_5.p
-- top_10.p
-- top_20.p
-- top_20
-- user_item_matrix.p
-
-- data/articles_community.csv
-- data/user-item-interaction.csv
 
 ### How to interact with this project
 - clone the project `git clone https://github.com/TobiasGroeschner/udacity-data-scientist.git`
 
-
+### Results
 #### Part I : Exploratory Data Analysis
 
 - 50% of individuals have 3 or fewer interactions.
@@ -67,8 +60,7 @@ Recommendations_with_IBM.ipynb
 - a function that finds articles the user hasn't seen before and provides them as recommendations
 - a function:  For each user - finds articles the user hasn't seen before and provides them as recommendations
 
-#### Part IV: Content Based Recommendations (EXTRA - NOT REQUIRED)
-- not done
+#### Part IV: Content Based Recommendations (EXTRA - NOT REQUIRED): not done
 
 #### Part V: Matrix Factorization
 
