@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "udacity-data-scientist"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Groeschner <tobias.groeschner@eon.com>"]
+readme = "README.md"
+packages = [{include = "udacity_data_scientist"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+sqlalchemy = "^1.4.45"
+nltk = "^3.8"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.0"
+plotly = "^5.11.0"
+flask = "^2.2.2"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+black = "^22.12.0"
+nbconvert = "^7.2.9"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
