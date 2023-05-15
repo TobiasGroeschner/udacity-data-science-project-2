@@ -35,6 +35,7 @@ The remaining files are not uploaded due to rules of udacity.
 
 ### Results
 
+Read the a [blog post](https://medium.com/@tobias.groeschner/udacity-data-scientist-project-4-customer-segmentation-report-for-arvato-financial-services-eb3d9095ee6d) on medium.
 
 #### Data Prerocessing
  - discard columns with above 0.4 NaN values
