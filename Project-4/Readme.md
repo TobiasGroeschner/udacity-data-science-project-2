@@ -38,13 +38,13 @@ The remaining files are not uploaded due to rules of udacity.
 #### Data Prerocessing
  - discard columns with above 0.4 NaN values
  - factorize object columns so that machine learning algorithms can handle data
- - used (SimpleImputer)[https://scikit-learn.org/stable/modules/impute.html] to fill remaining NaN values
- - used (StandardScaler)[https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html] to normalize the data
+ - used [SimpleImputer](https://scikit-learn.org/stable/modules/impute.html) to fill remaining NaN values
+ - used [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) to normalize the data
 
 
 #### Customer segmentation report
- - used (Principal Component Analysis)[https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html] to reduce data
- - used (Clustering)[https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5] to cluster & compare the population vs. the customer data
+ - used [Principal Component Analysis](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) to reduce data
+ - used [Clustering](https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5) to cluster & compare the population vs. the customer data
  - clusters of most influence to become a customer was based on the lifestage of the person.
 
 #### Machine learning
