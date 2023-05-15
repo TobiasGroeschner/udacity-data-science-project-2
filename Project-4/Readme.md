@@ -12,7 +12,7 @@
 
 ### Necessary packages
 
-see ../poetry.lock file
+see ../poetry.lock file or requirements.txt 
 
 ### Project Motivation
 
@@ -21,6 +21,7 @@ The goal of this project is to analyze demographic data for customers of a mail-
 
 ### File Descriptions
 
+- `requirements.txt`:  a list of all installed Python modules to complete the Data Science nanodegree with their versions.
 - `images/*`: images used for medium report
 - `DIAS Attributes - Values 2017.xlsx`: explanatory excel
 - `DIAS Information Levels - Attributes 2017.xlsx`: explanatory excel
