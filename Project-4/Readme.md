@@ -21,6 +21,7 @@ The goal of this project is to analyze demographic data for customers of a mail-
 
 ### File Descriptions
 
+- `images/*`: images used for medium report
 - `DIAS Attributes - Values 2017.xlsx`: explanatory excel
 - `DIAS Information Levels - Attributes 2017.xlsx`: explanatory excel
 - `Arvato Project Workbook.ipynb`: project notebook
