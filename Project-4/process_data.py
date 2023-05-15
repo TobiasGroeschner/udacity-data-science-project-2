@@ -1,24 +1,5 @@
-import sys
 import pandas as pd
 import numpy as np
-
-
-def load_data(azdias_filepath: str, customers_filepath: str) -> pd.DataFrame:
-
-    """
-    Loads two datasets
-
-    Parameters:
-
-    Returns:
-
-    """
-
-    # load in the data
-    azdias = pd.read_csv(azdias_filepath, sep=',', nrows= 400000, index_col= 0 )
-    customers = pd.read_csv(customers_filepath, sep=',', index_col= "Unnamed: 0")
-
-    return azdias, customers
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
@@ -26,10 +7,10 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     Cleans the dataset
 
     Parameters:
-    df: 
+    df: azdias or population dataset
 
     Returns:
-    df: 
+    df: a cleaned dataset
 
     """
 
@@ -81,27 +62,3 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
     
     return df
-
-
-
-def main():
-
-    azdias_filepath = "Udacity_AZDIAS_052018.csv"
-    customers_filepath = "Udacity_CUSTOMERS_052018.csv"
-
-    print(
-        "Loading data...\n    AZDIAS: {}\n    CUSTOMERS: {}".format(
-            azdias_filepath, customers_filepath
-        )
-    )
-
-    azdias, customers = load_data(azdias_filepath, customers_filepath)
-    
-    print("Cleaning data...")
-    clean_data(df = azdias)
-
-    
-
-
-if __name__ == "__main__":
-    main()
