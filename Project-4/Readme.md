@@ -64,11 +64,22 @@ Read the a [blog post](https://medium.com/@tobias.groeschner/udacity-data-scient
 
 ### Sources
 
+Data Processing
 - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
 - https://scikit-learn.org/stable/modules/impute.html
-- https://builtin.com/data-science/step-step-explanation-principal-component-analysis
+
+Customer segmentation
 - https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+- https://builtin.com/data-science/step-step-explanation-principal-component-analysis
+
+
+Clustering
 - https://towardsdatascience.com/how-many-clusters-6b3f220f0ef5
+- https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html
+
+Machine Learning
 - https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score
+- https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 
