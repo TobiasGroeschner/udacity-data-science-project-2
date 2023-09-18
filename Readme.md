@@ -14,3 +14,6 @@ Each project contains a detailed README file documenting the project description
 | 03 		  | [Recommendation Engines](/Project-3/)	|
 | 04 		  | [Create a Customer Segmentation Report for Arvato Financial Services](/Project-4/)	|
 
+## Nanodegree Certificate
+
+![Tobias Gröschner Certificate](data_scientist_cert.png)
