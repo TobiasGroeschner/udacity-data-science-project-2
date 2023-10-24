@@ -1,6 +1,6 @@
 # Udacity Data Scientist Nanodegree Program
 
-This repository is for projects in [Udacity's Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025) that covers in-demand skills like data-engineering, recommendation-systems, SQL or command line essentials. The course is advanced and takes approximately 4 months to complete.
+This repository is for projects in [Udacity's Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025) that covers in-demand skills like data-engineering and recommendation-systems. The course is advanced and takes approximately 4 months to complete.
 
 Each project contains a detailed README file documenting the project description, specs, processes and findings.
 
